@@ -1,3 +1,36 @@
 body {
     max-width: 1920px;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.header-title h1{
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.header-subtitle h3 {
+    background: black;
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.header-link span {
+    display: flex;
+    flex-flow: row-reverse; 
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    max-width: 920px;
+}
+
+.link-line {
+    height: 2px;
+    background-color: black;
+    width: 90%;
 }
