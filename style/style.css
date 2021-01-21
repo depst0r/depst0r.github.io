@@ -65,3 +65,19 @@ body {
     color: red; 
     height: 2px; 
 }
+
+.header-navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    /* margin-right: 1rem; */
+    z-index: 1;
+    position: relative;
+    border: 2px solid black;
+    padding: 1rem;
+    cursor: pointer;
+}
