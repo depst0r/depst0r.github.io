@@ -4,33 +4,37 @@ body {
     box-sizing: border-box;
     margin: auto;
 }
-
-.header-title h1{
-    display: flex;
-    flex-flow: row-reverse;
+.header-foto img {
+    /* width: 400px; */
+    position: relative;
+    z-index: 1;
+    border-radius: 17%;
 }
-
-.header-subtitle h3 {
-    background: black;
-    color: white;
-    padding: 0.5rem;
+.header-foto {
     display: flex;
-    flex-flow: row-reverse;
-}
-
-.header-link span {
-    display: flex;
-    flex-flow: row-reverse; 
-}
-
-.header-link {
-    display: flex;
+    /* justify-content: center; */
+    align-content: space-between;
     align-items: center;
-    max-width: 920px;
+    flex-direction: column;
+    height: 150px;
+    /* width: 50%; */
+    width: 70%;
 }
 
-.link-line {
-    height: 2px;
+.header-info {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+}
+
+.header-subtitle h3{
+    color: white;
     background-color: black;
-    width: 90%;
+    padding: 10px 20px;
+    position: relative;
+    letter-spacing: 2px;
 }
