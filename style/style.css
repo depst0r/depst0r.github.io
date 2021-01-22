@@ -17,6 +17,17 @@ li {
     cursor: pointer;
 }
 
+.clock {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.skills {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
 .skills-list {
     counter-reset: li; 
     list-style: none; 
