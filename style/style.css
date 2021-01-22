@@ -9,10 +9,10 @@ body {
     box-sizing: border-box;
 }
 
-ol {
-    width: 20%;
-    margin: auto;
+header {
+    background-image: url('../img/header.jpg');
 }
+
 li {
     cursor: pointer;
 }
