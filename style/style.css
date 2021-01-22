@@ -2,5 +2,27 @@ body {
     max-width: 1920px;
     padding: 0;
     box-sizing: border-box;
-    margin: auto;
+}
+
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.phone img,
+.telegram img,
+.email img,
+.github img,
+.linkedin img {
+    width: 25px;
+}
+
+li {
+    list-style-type: none;
+}
+.text-name img {
+    border-radius: 50%; 
+    border: 3px solid black; 
+    box-shadow: 0 0 7px #666; 
+    width: 200px;
 }
