@@ -2,6 +2,7 @@ body {
     max-width: 1920px;
     padding: 0;
     box-sizing: border-box;
+    background: #dbd8d8;
 }
 
 :after,
@@ -9,8 +10,17 @@ body {
     box-sizing: border-box;
 }
 
-header {
-    background-image: url('../img/header.jpg');
+.header-img img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 8rem;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
 }
 
 li {
