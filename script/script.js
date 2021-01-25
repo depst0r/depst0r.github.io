@@ -1,4 +1,4 @@
-// window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', () => {
 
 // 	function clock() {
 // 		const clock = document.querySelector('.clock-number');
@@ -14,7 +14,14 @@
 // 	}, 1000);
 // };
 
+function handlerHoverColor() {
+    const iconContact = document.querySelector('.main-block-contact');
 
+    iconContact.onmouseover = event => {
+        event.target.classList.toggle('black_and_white')
+    }
 
-// 	clock();
-// });
+}
+    handlerHoverColor();
+	// clock();
+});

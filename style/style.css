@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
 body {
     max-width: 1920px;
     padding: 0;
@@ -28,6 +30,23 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background-color: white;
     margin: auto;
+    /* background: url('https://images.vectorhq.com/images/previews/c17/paint-splatter-psd-452408.png') no-repeat center ; */
+    
+}
+
+.name,
+.position {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.name {
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.position {
+    font-size: 17px;
 }
 
 .phone img,
@@ -44,4 +63,11 @@ a {
     display: flex;
     align-items: center;
 }
+
+
+.black_and_white {
+    filter: grayscale(100%);
+}
+
+
 
