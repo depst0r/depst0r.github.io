@@ -29,3 +29,16 @@ body {
     background-color: white;
 }
 
+.phone img,
+.email img,
+.telegram img,
+.github img,
+.linkedin img {
+    width: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
