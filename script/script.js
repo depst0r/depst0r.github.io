@@ -14,17 +14,17 @@ window.addEventListener('DOMContentLoaded', () => {
 	}, 1000);
 };
 
-function handlerHoverColor() {
-    const iconContact = document.querySelector('.main-block-contact');
+// function handlerHoverColor() {
+//     const iconContact = document.querySelector('.main-block-contact');
     
 
-    iconContact.onmouseover = event => {
-        event.target.classList.toggle('black_and_white')
-    }
+//     iconContact.onmouseover = event => {
+//         event.target.classList.toggle('black_and_white')
+//     }
 
 
 
-}
-    handlerHoverColor();
+// }
+//     handlerHoverColor();
 	clock();
 });

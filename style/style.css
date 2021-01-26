@@ -18,6 +18,20 @@ body {
     width: 8rem;
 }
 
+/* .list-group {
+    padding: 20px 0 0 0;
+    width: 45%;
+} */
+
+.list-group-item,
+.btn {
+    border: none
+}
+
+li img {
+    width: 20px;
+}
+
 .header-user-info {
     margin: auto;
     text-align: center;
@@ -29,9 +43,7 @@ body {
     margin: auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background-color: white;
-    margin: auto;
-    /* background: url('https://images.vectorhq.com/images/previews/c17/paint-splatter-psd-452408.png') no-repeat center ; */
-    
+    margin: auto;    
 }
 
 .name,
@@ -49,17 +61,9 @@ body {
     font-size: 17px;
 }
 
-.phone img,
-.email img,
-.telegram img,
-.github img,
-.linkedin img {
-    width: 1.5rem;
-}
-
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(100, 100, 255);
     display: flex;
     align-items: center;
 }
