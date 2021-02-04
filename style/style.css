@@ -7,71 +7,56 @@ body {
     background: #dbd8d8;
 }
 
-:after,
-:before {
-    box-sizing: border-box;
+p {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+}
+
+
+.header-img img {
+    border: 5px solid #3bf;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.name {
+    font-size: 30px;
+}
+.position {
+    font-size: 25px;
+}
+
+.job {
+    font-size: 20px;
+    color:#3bf;
+}
+
+.header {
+    display: flex;
+}
+.header-text {
+    flex-grow: 1;
+}
+
+.header-img {
+    flex-grow: 1;
+}
+
+.header-link {
+    flex-grow: 1;
 }
 
 .header-user-info img {
     border: 1px solid black;
     border-radius: 50%;
     width: 8rem;
-}
+} 
 
-/* .list-group {
-    padding: 20px 0 0 0;
-    width: 45%;
-} */
-
-.list-group-item,
-.btn {
-    border: none
-}
-
-li img {
-    width: 20px;
-}
-
-.header-user-info {
-    margin: auto;
-    text-align: center;
-    padding: 2rem 0 0 0;
-}
-
-.container {
-    max-width: 90%;
-    margin: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: white;
-    margin: auto;    
-}
-
-.name,
-.position {
-    font-family: 'Yusei Magic', sans-serif;
-}
-
-.name {
-    letter-spacing: 4px;
-    font-weight: 600;
-    font-size: 25px;
-}
-
-.position {
-    font-size: 17px;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(100, 100, 255);
-    display: flex;
-    align-items: center;
-}
-
-
-.black_and_white {
-    filter: grayscale(100%);
-}
 
 
 
