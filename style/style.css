@@ -59,6 +59,13 @@ a {
     padding: 27px;
 }
 
+.line {
+    background-color: #3bf;
+    height: 2px;
+    width: 90%;
+    margin: auto;
+}
+
 .name {
     background: #3bf;
     color: white;
